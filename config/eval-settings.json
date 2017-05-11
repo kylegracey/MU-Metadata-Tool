@@ -1,0 +1,27 @@
+{
+  "Mandatory Fields": [
+    "Asset Name",
+    "BrandSubbrand",
+    "Path to Assets",
+    "Archived",
+    "assettype"
+  ],
+  "Tag Check Categories": [
+    "group",
+    "clientteam",
+    "assettype",
+    "assetsubtype",
+    "campaign",
+    "productgroup",
+    "product",
+    "productsize",
+    "productsubtype",
+    "productgender",
+    "numberofpeople",
+    "person",
+    "teammarks",
+    "gender",
+    "shottype",
+    "sport"
+  ]
+}

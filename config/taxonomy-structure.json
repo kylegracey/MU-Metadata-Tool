@@ -1,0 +1,1493 @@
+[
+  {
+    "Metaproperty": "group",
+    "Label": "Group",
+    "Options": [
+      {
+        "Label": "PepsiCo"
+      },
+      {
+        "Label": "Tyson"
+      },
+      {
+        "Label": "New York"
+      },
+      {
+        "Label": "Kalamazoo"
+      },
+      {
+        "Label": "VML Agency"
+      }
+    ]
+  },
+  {
+    "Metaproperty": "clientteam",
+    "Label": "Client Team",
+    "Options": [
+      {
+        "Label": "VML Assets",
+        "Dependencies": {
+          "group": [
+            "VML Agency"
+          ]
+        }
+      },
+      {
+        "Label": "Gatorade",
+        "Dependencies": {
+          "group": [
+            "PepsiCo"
+          ]
+        }
+      },
+      {
+        "Label": "Propel",
+        "Dependencies": {
+          "group": [
+            "PepsiCo"
+          ]
+        }
+      },
+      {
+        "Label": "Tyson Consumer",
+        "Dependencies": {
+          "group": [
+            "Tyson"
+          ]
+        }
+      },
+      {
+        "Label": "Jimmy Dean",
+        "Dependencies": {
+          "group": [
+            "Tyson"
+          ]
+        }
+      },
+      {
+        "Label": "Hillshire",
+        "Dependencies": {
+          "group": [
+            "Tyson"
+          ]
+        }
+      },
+      {
+        "Label": "New Balance",
+        "Dependencies": {
+          "group": [
+            "New York"
+          ]
+        }
+      },
+      {
+        "Label": "Stryker",
+        "Dependencies": {
+          "group": [
+            "Kalamazoo"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Metaproperty": "assettype",
+    "Label": "Asset Type",
+    "Options": [
+      {
+        "Label": "Photography"
+      },
+      {
+        "Label": "Video"
+      },
+      {
+        "Label": "Graphics"
+      },
+      {
+        "Label": "Fonts"
+      },
+      {
+        "Label": "Presentations"
+      },
+      {
+        "Label": "Documents"
+      },
+      {
+        "Label": "Production Files"
+      },
+      {
+        "Label": "Product Renders"
+      }
+    ]
+  },
+  {
+    "Metaproperty": "assetsubtype",
+    "Label": "Asset Sub-Type",
+    "Options": [
+      {
+        "Label": "Original",
+        "Dependencies": {
+          "assettype": [
+            "Photography",
+            "Video"
+          ]
+        }
+      },
+      {
+        "Label": "Stock",
+        "Dependencies": {
+          "assettype": [
+            "Photography",
+            "Video"
+          ]
+        }
+      },
+      {
+        "Label": "Partner",
+        "Dependencies": {
+          "assettype": [
+            "Photography"
+          ]
+        }
+      },
+      {
+        "Label": "Logos",
+        "Dependencies": {
+          "assettype": [
+            "Graphics"
+          ]
+        }
+      },
+      {
+        "Label": "Layouts",
+        "Dependencies": {
+          "assettype": [
+            "Graphics"
+          ]
+        }
+      },
+      {
+        "Label": "Icons",
+        "Dependencies": {
+          "assettype": [
+            "Graphics"
+          ]
+        }
+      },
+      {
+        "Label": "Backgrounds and Textures",
+        "Dependencies": {
+          "assettype": [
+            "Photography",
+            "Graphics"
+          ]
+        }
+      },
+      {
+        "Label": "Animations",
+        "Dependencies": {
+          "assettype": [
+            "Video",
+            "Graphics",
+            "Product Renders"
+          ]
+        }
+      },
+      {
+        "Label": "Releases",
+        "Dependencies": {
+          "assettype": [
+            "Documents"
+          ]
+        }
+      },
+      {
+        "Label": "Print Ad",
+        "Dependencies": {
+          "assettype": [
+            "Production Files"
+          ]
+        }
+      },
+      {
+        "Label": "OLM",
+        "Dependencies": {
+          "assettype": [
+            "Production Files"
+          ]
+        }
+      },
+      {
+        "Label": "Email",
+        "Dependencies": {
+          "assettype": [
+            "Production Files"
+          ]
+        }
+      },
+      {
+        "Label": "Facebook",
+        "Dependencies": {
+          "assettype": [
+            "Production Files"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Metaproperty": "productgroup",
+    "Label": "Product Group",
+    "Options": [
+      {
+        "Label": "GTQ",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Bars",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Prime",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Perform",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Recover",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Endurance",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Equipment",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Gx",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Heritage",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Sports Fuel Innovation Betas",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Unflavored Water",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Flavored Water",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Powder Pack",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Metaproperty": "product",
+    "Label": "Product",
+    "Options": [
+      {
+        "Label": "Coolers",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Cups",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Fuel Bar",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "GTQ",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "GTQ - Fierce",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "GTQ - Flow",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "GTQ - Frost",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Gx Bottle",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Organic",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Energy Chews",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Protein Shake",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Whey Protein Bar",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Protein Powder",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Soccer Formula",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Blender Bottle",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Squeeze Bottles",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Tent",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Towel",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Gatorlytes",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Carb Energy Chews",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Endurance Formula",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Carb Energy Drink",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Sports Fuel Drink",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "G2",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "GTQ - Nuestro Sabor",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "GTQ - Powder",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Post-Game Protein",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Sports Re-fuel Drink",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Gx Pods",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Berry",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Black Cherry",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Blueberry Pomegranate",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Cranberry Lime",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Grape",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Mandarin Orange",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Kiwi Strawberry",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Peach",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Lemon",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Watermelon",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Metaproperty": "productsize",
+    "Label": "Product Size",
+    "Options": [
+      {
+        "Label": "12oz",
+        "Dependencies": {
+          "productgroup": [
+            "GTQ"
+          ]
+        }
+      },
+      {
+        "Label": "16.9oz",
+        "Dependencies": {
+          "productgroup": [
+            "GTQ"
+          ]
+        }
+      },
+      {
+        "Label": "18.3oz",
+        "Dependencies": {
+          "productgroup": [
+            "GTQ"
+          ]
+        }
+      },
+      {
+        "Label": "20oz",
+        "Dependencies": {
+          "productgroup": [
+            "GTQ"
+          ]
+        }
+      },
+      {
+        "Label": "21oz",
+        "Dependencies": {
+          "productgroup": [
+            "GTQ"
+          ]
+        }
+      },
+      {
+        "Label": "22.4oz",
+        "Dependencies": {
+          "productgroup": [
+            "Recover"
+          ]
+        }
+      },
+      {
+        "Label": "24oz",
+        "Dependencies": {
+          "productgroup": [
+            "GTQ",
+            "Endurance"
+          ]
+        }
+      },
+      {
+        "Label": "28oz",
+        "Dependencies": {
+          "productgroup": [
+            "GTQ"
+          ]
+        }
+      },
+      {
+        "Label": "32oz",
+        "Dependencies": {
+          "productgroup": [
+            "GTQ"
+          ]
+        }
+      },
+      {
+        "Label": "51oz",
+        "Dependencies": {
+          "productgroup": [
+            "GTQ"
+          ]
+        }
+      },
+      {
+        "Label": "64oz",
+        "Dependencies": {
+          "productgroup": [
+            "GTQ",
+            "Equipment"
+          ]
+        }
+      },
+      {
+        "Label": "76.5oz",
+        "Dependencies": {
+          "productgroup": [
+            "GTQ"
+          ]
+        }
+      },
+      {
+        "Label": "128oz",
+        "Dependencies": {
+          "productgroup": [
+            "GTQ"
+          ]
+        }
+      },
+      {
+        "Label": "5-Pack",
+        "Dependencies": {
+          "productgroup": [
+            "Prime"
+          ]
+        }
+      },
+      {
+        "Label": "8-Pack",
+        "Dependencies": {
+          "productgroup": [
+            "GTQ"
+          ]
+        }
+      },
+      {
+        "Label": "Individual Packet",
+        "Dependencies": {
+          "productgroup": [
+            "GTQ",
+            "Prime",
+            "Recover"
+          ]
+        }
+      },
+      {
+        "Label": "Chews",
+        "Dependencies": {
+          "productgroup": [
+            "Prime"
+          ]
+        }
+      },
+      {
+        "Label": "1 Gallon",
+        "Dependencies": {
+          "productgroup": [
+            "Equipment"
+          ]
+        }
+      },
+      {
+        "Label": "3 Gallon",
+        "Dependencies": {
+          "productgroup": [
+            "Equipment"
+          ]
+        }
+      },
+      {
+        "Label": "7 Gallon",
+        "Dependencies": {
+          "productgroup": [
+            "Equipment"
+          ]
+        }
+      },
+      {
+        "Label": "Ice Chest",
+        "Dependencies": {
+          "productgroup": [
+            "Equipment"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Metaproperty": "sport",
+    "Label": "Sport",
+    "Options": [
+      {
+        "Label": "Baseball"
+      },
+      {
+        "Label": "Basketball"
+      },
+      {
+        "Label": "Cross Country"
+      },
+      {
+        "Label": "Football"
+      },
+      {
+        "Label": "Hockey"
+      },
+      {
+        "Label": "Lacrosse"
+      },
+      {
+        "Label": "NASCAR"
+      },
+      {
+        "Label": "Soccer"
+      },
+      {
+        "Label": "Tennis"
+      },
+      {
+        "Label": "Track"
+      },
+      {
+        "Label": "Workout"
+      },
+      {
+        "Label": "Yoga/Pilates"
+      },
+      {
+        "Label": "Bootcamp"
+      },
+      {
+        "Label": "Spin"
+      },
+      {
+        "Label": "Boxing"
+      },
+      {
+        "Label": "Dance"
+      },
+      {
+        "Label": "Running"
+      },
+      {
+        "Label": "Training"
+      },
+      {
+        "Label": "Golf"
+      },
+      {
+        "Label": "Skateboarding"
+      },
+      {
+        "Label": "Softball"
+      },
+      {
+        "Label": "Volleyball"
+      }
+    ]
+  },
+  {
+    "Metaproperty": "person",
+    "Label": "Person",
+    "Options": [
+      {
+        "Label": "Bryce Harper"
+      },
+      {
+        "Label": "Cam Newton"
+      },
+      {
+        "Label": "Coach"
+      },
+      {
+        "Label": "D'Angelo Russell"
+      },
+      {
+        "Label": "Dwyane Wade"
+      },
+      {
+        "Label": "Elena Delle Donne"
+      },
+      {
+        "Label": "Eli Manning"
+      },
+      {
+        "Label": "Jimmie Johnson"
+      },
+      {
+        "Label": "JJ Watt"
+      },
+      {
+        "Label": "Joe Athlete"
+      },
+      {
+        "Label": "Karl-Anthony Towns"
+      },
+      {
+        "Label": "Paul George"
+      },
+      {
+        "Label": "Peyton Manning"
+      },
+      {
+        "Label": "Serena Williams"
+      },
+      {
+        "Label": "Todd Gurley"
+      },
+      {
+        "Label": "Trainer"
+      },
+      {
+        "Label": "Usain Bolt"
+      },
+      {
+        "Label": "April Ross"
+      },
+      {
+        "Label": "Matt Kenseth"
+      },
+      {
+        "Label": "RGIII"
+      },
+      {
+        "Label": "Nicole Winhoffer"
+      },
+      {
+        "Label": "Sweat Chicago"
+      },
+      {
+        "Label": "Fitness in the City"
+      },
+      {
+        "Label": "Tone House"
+      },
+      {
+        "Label": "Emily Hutchins"
+      },
+      {
+        "Label": "Fit36"
+      },
+      {
+        "Label": "Fast Twitch"
+      },
+      {
+        "Label": "ModelFIT"
+      },
+      {
+        "Label": "Prevail Boxing"
+      },
+      {
+        "Label": "Speedplay"
+      },
+      {
+        "Label": "The Class"
+      },
+      {
+        "Label": "Yoga For Bad People"
+      },
+      {
+        "Label": "Blogger"
+      },
+      {
+        "Label": "Trayvon Bromell"
+      },
+      {
+        "Label": "Francisco Lindor"
+      },
+      {
+        "Label": "Aaron Ramsey"
+      },
+      {
+        "Label": "Gideon Akande"
+      },
+      {
+        "Label": "Vixen Workout"
+      },
+      {
+        "Label": "Kate Lemere"
+      }
+    ]
+  },
+  {
+    "Metaproperty": "gender",
+    "Label": "Gender",
+    "Options": [
+      {
+        "Label": "Male"
+      },
+      {
+        "Label": "Female"
+      }
+    ]
+  },
+  {
+    "Metaproperty": "numberofpeople",
+    "Label": "Number of People",
+    "Options": [
+      {
+        "Label": "None"
+      },
+      {
+        "Label": "One"
+      },
+      {
+        "Label": "Two"
+      },
+      {
+        "Label": "Group of People (3+)"
+      }
+    ]
+  },
+  {
+    "Metaproperty": "campaign",
+    "Label": "Campaign",
+    "Options": [
+      {
+        "Label": "Flow",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Social",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Volume Driving",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Beat the Heat",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "eComm",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Sweat with the Best",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Win From Within",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Gatorade Brand",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Sports Fuel Innovation",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Gx",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "League of Captains",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Every Ounce Counts",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "G Organic",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "GSSI",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Be Like Mike",
+        "Dependencies": {
+          "clientteam": [
+            "Gatorade"
+          ]
+        }
+      },
+      {
+        "Label": "Pandora",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Co:Labs NY 16",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Co:Labs LA 16",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Co:Labs First Look 17",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Co:Labs Miami 17",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Co:Labs Denver 17",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Co:Labs NY 17",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Co:Labs Chicago 17",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Co:Labs LA 17",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      },
+      {
+        "Label": "Co:Labs Fitness Festival",
+        "Dependencies": {
+          "clientteam": [
+            "Propel"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "Metaproperty": "year",
+    "Label": "Year",
+    "Options": [
+      {
+        "Label": "2006"
+      },
+      {
+        "Label": "2007"
+      },
+      {
+        "Label": "2008"
+      },
+      {
+        "Label": "2009"
+      },
+      {
+        "Label": "2010"
+      },
+      {
+        "Label": "2011"
+      },
+      {
+        "Label": "2012"
+      },
+      {
+        "Label": "2013"
+      },
+      {
+        "Label": "2014"
+      },
+      {
+        "Label": "2015"
+      },
+      {
+        "Label": "2016"
+      },
+      {
+        "Label": "2017"
+      }
+    ]
+  },
+  {
+    "Metaproperty": "platformrights",
+    "Label": "Platform Rights",
+    "Options": [
+      {
+        "Label": "Digital"
+      },
+      {
+        "Label": "Social"
+      },
+      {
+        "Label": "Broadcast"
+      },
+      {
+        "Label": "Unlimited"
+      },
+      {
+        "Label": "Print"
+      },
+      {
+        "Label": "Internal"
+      }
+    ]
+  },
+  {
+    "Metaproperty": "shottype",
+    "Label": "Shot Type",
+    "Options": [
+      {
+        "Label": "Product"
+      },
+      {
+        "Label": "Lifestyle"
+      },
+      {
+        "Label": "Active"
+      },
+      {
+        "Label": "Studio"
+      },
+      {
+        "Label": "Head to Toe"
+      },
+      {
+        "Label": "Product Close Up"
+      },
+      {
+        "Label": "Medium Shot"
+      },
+      {
+        "Label": "Portrait"
+      },
+      {
+        "Label": "Wide Shot"
+      },
+      {
+        "Label": "Side"
+      },
+      {
+        "Label": "Top"
+      },
+      {
+        "Label": "Bottom"
+      },
+      {
+        "Label": "3/4 View"
+      },
+      {
+        "Label": "Front"
+      },
+      {
+        "Label": "Back"
+      },
+      {
+        "Label": "Right shoe"
+      },
+      {
+        "Label": "Left shoe"
+      },
+      {
+        "Label": "Action"
+      },
+      {
+        "Label": "Family"
+      },
+      {
+        "Label": "Group"
+      },
+      {
+        "Label": "Consumption"
+      },
+      {
+        "Label": "Sweep"
+      },
+      {
+        "Label": "Architecture"
+      },
+      {
+        "Label": "Pack Shot"
+      },
+      {
+        "Label": "Individual Product"
+      }
+    ]
+  },
+  {
+    "Metaproperty": "market",
+    "Label": "Market",
+    "Options": [
+      {
+        "Label": "North America"
+      },
+      {
+        "Label": "International"
+      },
+      {
+        "Label": "USA"
+      },
+      {
+        "Label": "EMEA"
+      },
+      {
+        "Label": "Australia"
+      },
+      {
+        "Label": "France"
+      },
+      {
+        "Label": "Germany"
+      },
+      {
+        "Label": "Asia"
+      },
+      {
+        "Label": "Europe"
+      },
+      {
+        "Label": "Latin America"
+      },
+      {
+        "Label": "Oceania"
+      },
+      {
+        "Label": "Africa"
+      },
+      {
+        "Label": "Middle East"
+      }
+    ]
+  },
+  {
+    "Metaproperty": "teammarks",
+    "Label": "Team Marks",
+    "Dependencies": {
+      "clientteam": [
+        "Gatorade"
+      ]
+    },
+    "Options": [
+      {
+        "Label": "Game"
+      },
+      {
+        "Label": "Practice"
+      }
+    ]
+  },
+  {
+    "Metaproperty": "assetstatus",
+    "Label": "Asset Status",
+    "Options": [
+      {
+        "Label": "Expired"
+      }
+    ]
+  }
+]
