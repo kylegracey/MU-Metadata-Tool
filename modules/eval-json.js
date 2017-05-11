@@ -15,7 +15,7 @@ const TagCheckCats = evalsettings["Tag Check Categories"]
 // Error Object Structure
 function ErrObject(obj) {
   this.exists = false
-  this["Asset Name"] = obj["Asset Name"]
+  this["Asset Name"] = obj.name
   this["Special Character Errors"] = []
   this["Mandatory Fields Missing"]= []
   this["Dependencies"]= []
@@ -23,10 +23,9 @@ function ErrObject(obj) {
   this["Created"]= []
   this["year"]= []
   this["Hidden Files"]= []
-  this["Path to Assets"]= obj["Path to Assets"]
 }
 
-let errCounter = {
+let ErrCounter = {
   "Critical": {
     "SpecialChar": 0,
     "MissingMandatory": 0,
@@ -69,7 +68,7 @@ const writeLog = function(logData, fname) {
 function checkMandatoryCategories(category, errObject) {
   if (mandatoryFields.indexOf(category) !== -1) {
     errObject.exists = true
-    MissingMandatory++
+    ErrCounter.Critical.MissingMandatory++
     errObject["Mandatory Fields Missing"].push(category)
   }
 }
@@ -83,7 +82,7 @@ function charCheck(category, values, errObject) {
       if (errObject["Special Character Errors"].indexOf(errString) == -1) {
         errObject["Special Character Errors"].push(errString)
       }
-      SpecialCharCount++
+      ErrCounter.Critical.SpecialChar++
     }
   }
 }
@@ -93,7 +92,7 @@ function hiddenFileCheck(value, errObject) {
   if (value.indexOf(".") == 0) {
     errObject.exists = true
     errObject["Hidden Files"].push("Hidden File Found!")
-    HiddenFileCount++
+    ErrCounter.Critical.HiddenFile++
   }
 }
 
@@ -117,7 +116,7 @@ const evalJSON = function(jsonInput) {
 
         // Tag Categories
         if (TagCheckCats.indexOf(category) !== -1) {
-          checkTags(obj, category, values, CritErrObject, DependencyCount)
+          checkTags(obj, category, values, CritErrObject, ErrCounter)
         }
 
         // Check all categories except Path to Assets
@@ -145,6 +144,7 @@ const evalJSON = function(jsonInput) {
 
   if (CritErrObjects.length > 0) {
     writeLog(CritErrObjects, "_CriticalErrorLog")
+    console.log(ErrCounter.Critical)
     console.warn(`========== WARNING: ${CritErrObjects.length} FILES WITH CRITICAL ERRORS FOUND ==========`)
     if (MissingMandatory > 0) {console.log(`${MissingMandatory} Mandatory Categories Missing`)}
     if (SpecialCharCount > 0) {console.log(`${SpecialCharCount} Special Character Error(s)`)}
@@ -154,6 +154,7 @@ const evalJSON = function(jsonInput) {
   }
 
   if (MinorErrObjects.length > 0) {
+    console.log(ErrCounter.Minor)
     writeLog(MinorErrObjects, "_MinorErrorLog")
   } else {
     writeLog({Errors:"No Minor Errors Found!"}, "_MinorErrorLog")
