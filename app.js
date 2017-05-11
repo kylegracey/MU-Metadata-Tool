@@ -31,22 +31,6 @@ const MassUpload = false
 let jsonOutput = []
 let TagTracker = []
 
-// function writeCsvFile(data) {
-//   // Convert jsonOutput back to CSV
-//   const jsonToCsvOptions = {
-//       headers   : "key",
-//       delimiter   : ";"
-//   }
-//   const csvOutput = csvjson.toCSV(data, jsonToCsvOptions);
-//
-//   // Write CSV to output file
-//   fs.writeFile(outputPath, csvOutput, function (err) {
-//     if (err) return console.log(err);
-//     console.log('Writing to csv/output.csv');
-//   });
-//
-// }
-
 const joinArrays = function(obj) {
   //Find all arrays in new object and join them into a string for csv output
   for (var key in obj) {
@@ -119,43 +103,67 @@ const parseMD = function(data) {
     // let obj = data[i]
     // console.log(obj.FileName)
     let newObj = {
-      "Asset Name" : [],
-      "Asset Description" : getDescription(obj),
-      BrandSubbrand : getSetting("BrandSubBrand"),
-      Created : getCreateDate(obj),
-      Copyright : "",
-      Tags : [],
-      "Path to Assets" : obj.SourceFile,
-      Archived : "0",
-      "New Filename" : obj.FileName,
-      fileextension: "",
-      group : getSetting("Group"),
-      clientteam : getSetting("Client Team"),
-      assettype : [],
-      assetsubtype : [],
-      year : [],
-      campaign : [],
-      productgroup : [],
-      product : [],
-      productsize : [],
-      productsubtype : [],
-      productgender : [],
-      numberofpeople : [],
-      person : [],
-      teammarks : [],
-      gender : [],
-      shottype : [],
-      sport : [],
-      assetstatus : [],
-      market : [],
-      platformrights : [],
-      jobid : [],
-      MassUpload: false
+      "brand" : brandID,
+      "name" : [],
+      "filename" : obj.FileName,
+      "tags" : [],
+      "File Extension": [],
+      "Group" : getSetting("Group"),
+      "Client Team" : getSetting("Client Team"),
+      "Asset Type" : [],
+      "Asset Sub-Type" : [],
+      "Year" : [],
+      "Campaign" : [],
+      "Product Group" : [],
+      "Product" : [],
+      "Product Size" : [],
+      "Product Subtype" : [],
+      "Product Gender" : [],
+      "Number of People" : [],
+      "Person" : [],
+      "Team Marks" : [],
+      "Gender" : [],
+      "Shot Type" : [],
+      "Sport" : [],
+      "Asset Expired" : [],
+      "Market" : [],
+      "Platform Rights" : [],
+      "Job ID" : []
+      // "Asset Name" : [],
+      // "Asset Description" : getDescription(obj),
+      // BrandSubbrand : getSetting("BrandSubBrand"),
+      // Created : getCreateDate(obj),
+      // Copyright : "",
+      // Tags : [],
+      // "Path to Assets" : obj.SourceFile,
+      // Archived : "0",
+      // "New Filename" : obj.FileName,
+      // fileextension: "",
+      // group : getSetting("Group"),
+      // clientteam : getSetting("Client Team"),
+      // assettype : [],
+      // assetsubtype : [],
+      // year : [],
+      // campaign : [],
+      // productgroup : [],
+      // product : [],
+      // productsize : [],
+      // productsubtype : [],
+      // productgender : [],
+      // numberofpeople : [],
+      // person : [],
+      // teammarks : [],
+      // gender : [],
+      // shottype : [],
+      // sport : [],
+      // assetstatus : [],
+      // market : [],
+      // platformrights : [],
+      // jobid : [],
     };
     trimExtension(obj, newObj)
     sortKeywords(obj, newObj)
     groupSearch(newObj)
-    delete newObj.MassUpload
 
     //Push tags into TagTracker
     for (let i = 0; i < newObj.Tags.length; i++) {
@@ -174,8 +182,4 @@ const parseMD = function(data) {
 
 }
 
-if (!MassUpload) {
-  parseMD(jsonData)
-} else {
-  parseMassUpload(jsonData)
-}
+parseMD(jsonData)
