@@ -20,8 +20,6 @@ function ErrObject(obj) {
   this["Mandatory Fields Missing"]= []
   this["Dependencies"]= []
   this["Invalid Options"] = []
-  this["Created"]= []
-  this["year"]= []
   this["Hidden Files"]= []
 }
 
@@ -30,6 +28,7 @@ let ErrCounter = {
     "SpecialChar": 0,
     "MissingMandatory": 0,
     "Dependency": 0,
+    "Options": 0,
     "HiddenFile": 0
   },
   "Minor": {
@@ -37,18 +36,6 @@ let ErrCounter = {
     "NoTags": 0
   }
 }
-// Counters
-// let CritErrorCount = 0
-let SpecialCharCount = 0
-let MissingMandatory = 0
-let DependencyCount = 0
-let CreatedFormatErrCount = 0
-let YearErrCount = 0
-let HiddenFileCount = 0
-
-let MinorErrorCount = 0
-let NoDateCount = 0
-let NoTagsCount = 0
 
 const writeLog = function(logData, fname) {
 
@@ -110,7 +97,7 @@ const evalJSON = function(jsonInput) {
         // If there is at least 1 value under this category
         const values = obj[category].split(",")
 
-        if (category == "Asset Name") {
+        if (category == "name") {
           hiddenFileCheck(values[0], CritErrObject)
         }
 
@@ -146,9 +133,11 @@ const evalJSON = function(jsonInput) {
     writeLog(CritErrObjects, "_CriticalErrorLog")
     console.log(ErrCounter.Critical)
     console.warn(`========== WARNING: ${CritErrObjects.length} FILES WITH CRITICAL ERRORS FOUND ==========`)
-    if (MissingMandatory > 0) {console.log(`${MissingMandatory} Mandatory Categories Missing`)}
-    if (SpecialCharCount > 0) {console.log(`${SpecialCharCount} Special Character Error(s)`)}
-    if (HiddenFileCount > 0) {console.log(`${HiddenFileCount} Hidden File(s) Found`)}
+    if (ErrCounter.Critical.MissingMandatory > 0) {console.log(`${ErrCounter.Critical.MissingMandatory} Mandatory Categories Missing`)}
+    if (ErrCounter.Critical.Dependency > 0) {console.log(`${ErrCounter.Critical.Dependency} Dependency Error(s)`)}
+    if (ErrCounter.Critical.Options > 0) {console.log(`${ErrCounter.Critical.Options} Invalid Options`)}
+    if (ErrCounter.Critical.SpecialChar > 0) {console.log(`${ErrCounter.Critical.SpecialChar} Special Character Error(s)`)}
+    if (ErrCounter.Critical.HiddenFile > 0) {console.log(`${ErrCounter.Critical.HiddenFile} Hidden File(s) Found`)}
   } else {
     writeLog({Errors:"No Critical Errors Found!"}, "_CriticalErrorLog")
   }

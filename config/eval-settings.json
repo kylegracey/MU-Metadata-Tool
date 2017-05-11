@@ -1,10 +1,11 @@
 {
   "Mandatory Fields": [
-    "Asset Name",
-    "BrandSubbrand",
-    "Path to Assets",
-    "Archived",
-    "assettype"
+    "brand",
+    "name",
+    "filename",
+    "Group",
+    "Client Team",
+    "Asset Type"
   ],
   "Tag Check Categories": [
     "tags",

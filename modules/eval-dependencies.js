@@ -57,7 +57,7 @@ const checkTags = function (obj, category, values, CritErrObject, ErrCounter) {
 
     if (!ValidTag) {
       CritErrObject.exists = true
-      // DependencyCount++
+      ErrCounter.Critical.Options++
       CritErrObject["Invalid Options"].push(`${category}: '${value}'`)
     }
 
