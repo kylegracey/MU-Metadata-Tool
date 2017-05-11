@@ -1,4 +1,4 @@
-const getSetting = require('./get-setting')
+const getSetting = require('../get-setting')
 const KeywordCats = getSetting("KeywordCats")
 
 const altKeywords = getSetting("Keyword Remaps")
@@ -35,9 +35,6 @@ const wordSearch = function(objKeywordArr, newObj) {
           foundKeyword = true
           // Found a match in this category's array
           let category = Cat
-          if (!newObj.MassUpload){
-            category = category.toLowerCase().replace(/\s/g, '');
-          }
 
           if (category == "Asset Subtype") {
             category = "Asset Sub-Type"
@@ -46,7 +43,7 @@ const wordSearch = function(objKeywordArr, newObj) {
           }
 
           // Check if tag exists in category already. If not, push into newObj[category]
-          // console.log(`Found a match! Pushing ${objKeywordArr[i]} into ${category}`)
+          console.log(`Found a match! Pushing ${objKeywordArr[i]} into ${category}`)
           if(newObj[category].indexOf(objKeywordArr[i]) == -1) {
             newObj[category].push(objKeywordArr[i])
           }
@@ -56,9 +53,7 @@ const wordSearch = function(objKeywordArr, newObj) {
 
       // If tag isn't found in any of the keyword categories, add to tags
       if (!foundKeyword) {
-        if (!newObj.MassUpload && newObj.Tags.indexOf(objKeywordArr[i]) == -1) {
-          newObj.Tags.push(objKeywordArr[i])
-        } else if (newObj.MassUpload && newObj.tags.indexOf(objKeywordArr[i]) == -1) {
+        if (newObj.tags.indexOf(objKeywordArr[i]) == -1) {
           newObj.tags.push(objKeywordArr[i])
         }
       }
