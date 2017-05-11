@@ -12,8 +12,8 @@ const trimExtension = function(obj, newObj) {
   let fileArr = obj.FileName.split(".")
   let extension = fileArr.pop().toLowerCase()
 
-  newObj["Asset Name"] = fileArr.join(".")
-  newObj.fileextension = extension
+  newObj.name = fileArr.join(".")
+  newObj["File Extension"] = extension
 
 }
 
