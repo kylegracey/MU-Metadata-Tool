@@ -1,7 +1,7 @@
 const getSetting = require('../get-setting')
 const taxonomy = require('../../config/taxonomy-structure')
 
-const KeywordCats = getSetting("KeywordCats")
+// const KeywordCats = getSetting("KeywordCats")
 
 const wordSearch = function(objKeywordArr, newObj) {
   // If a string is passed in, make it an array
@@ -33,27 +33,6 @@ const wordSearch = function(objKeywordArr, newObj) {
           }
         }
       }
-
-      // for (Cat in KeywordCats) {
-      //   if (KeywordCats[Cat].indexOf(objKeywordArr[i]) !== -1) {
-      //     foundKeyword = true
-      //     // Found a match in this category's array
-      //     let category = Cat
-      //
-      //     if (category == "Asset Subtype") {
-      //       category = "Asset Sub-Type"
-      //     } else if (category == "Marks") {
-      //       category = "Team Marks"
-      //     }
-      //
-      //     // Check if tag exists in category already. If not, push into newObj[category]
-      //     // console.log(`Found a match! Pushing ${objKeywordArr[i]} into ${category}`)
-      //     if(newObj[category].indexOf(objKeywordArr[i]) == -1) {
-      //       newObj[category].push(objKeywordArr[i])
-      //     }
-      //   }
-
-      // }
 
       // If tag isn't found in any of the keyword categories, add to tags
       if (!foundKeyword) {
