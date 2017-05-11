@@ -43,7 +43,7 @@ const wordSearch = function(objKeywordArr, newObj) {
           }
 
           // Check if tag exists in category already. If not, push into newObj[category]
-          console.log(`Found a match! Pushing ${objKeywordArr[i]} into ${category}`)
+          // console.log(`Found a match! Pushing ${objKeywordArr[i]} into ${category}`)
           if(newObj[category].indexOf(objKeywordArr[i]) == -1) {
             newObj[category].push(objKeywordArr[i])
           }

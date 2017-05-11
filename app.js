@@ -107,7 +107,7 @@ const parseMD = function(data) {
     };
     trimExtension(obj, newObj)
     sortKeywords(obj, newObj)
-    // groupSearch(newObj)
+    groupSearch(newObj)
 
     //Push tags into TagTracker
     for (let i = 0; i < newObj.tags.length; i++) {

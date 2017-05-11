@@ -6,13 +6,8 @@ const ProductGroups = getSetting("Product Groups");
 const groupSearch = function(newObj) {
   // Get array of products
   let products = []
-
-  if (!newObj.MassUpload) {
-    products = newObj.product
-  } else if (!newObj.MassUpload) {
-    products = newObj.Product
-  }
-
+  products = newObj.Product
+  
   // For each product in the products array
   for (let i = 0; i < products.length; i++) {
     for (group in ProductGroups) {
