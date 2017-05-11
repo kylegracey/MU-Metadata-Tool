@@ -17,8 +17,8 @@ const evalTags = require('./modules/eval-tags')
 // Input and Output Options
 // const inputPath = process.argv[2]
 // const outputPath = process.argv[3]
-const inputPath = './files/mutest.json'
-const outputPath = './files/mutestoutput.csv'
+const inputPath = './config/debug.json'
+const outputPath = './files/debugoutput.csv'
 const jsonData = require("./" + inputPath)
 
 // Brand Settings
