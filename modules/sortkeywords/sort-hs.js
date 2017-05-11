@@ -23,13 +23,9 @@ const sortHSLogic = function(hsArr, newObj) {
 
     // Start
     let category = hsArr[0]
-    if(!newObj.MassUpload) {
-      category = hsArr[0].toLowerCase().replace(/\s/g, '');
-    }
 
     if (newObj.hasOwnProperty(category)) {
       // If category matches one in object, push the second string from array into appropriate category.
-
       if(newObj[category].indexOf(hsArr[1]) == -1) {
         newObj[category].push(hsArr[1])
       }
