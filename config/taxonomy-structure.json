@@ -1489,5 +1489,65 @@
         "Label": "Expired"
       }
     ]
+  },
+  {
+    "Metaproperty": "fileextension",
+    "Label": "File Extension",
+    "Options": [
+      {
+        "Label": "jpg"
+      },
+      {
+        "Label": "mov"
+      },
+      {
+        "Label": "psd"
+      },
+      {
+        "Label": "cr2"
+      },
+      {
+        "Label": "png"
+      },
+      {
+        "Label": "tiff"
+      },
+      {
+        "Label": "mp4"
+      },
+      {
+        "Label": "eps"
+      },
+      {
+        "Label": "ai"
+      },
+      {
+        "Label": "ase"
+      },
+      {
+        "Label": "svg"
+      },
+      {
+        "Label": "otf"
+      },
+      {
+        "Label": "ttf"
+      },
+      {
+        "Label": "key"
+      },
+      {
+        "Label": "pdf"
+      },
+      {
+        "Label": "ppt"
+      },
+      {
+        "Label": "pptx"
+      },
+      {
+        "Label": "zip"
+      }
+    ]
   }
 ]
