@@ -275,7 +275,12 @@
       "Joe Athlete" : ["Joe"],
       "Product Close Up" : ["Product Hero"],
       "Sports Fuel Drink" : ["Prime Pouch"],
-      "Whey Protein Bar" : ["Recover Bar"]
+      "Whey Protein Bar" : ["Recover Bar"],
+      "Barrington IL (GSSI)" : ["Barrington, IL (GSSI)"],
+      "Bradenton FL (GSSI)" : ["Bradenton, FL (GSSI)"],
+      "Bradenton FL (IMG Academy)" : ["Bradenton, FL (IMG Academy)"],
+      "Chicago IL" : ["Chicago, IL"],
+      "Los Angeles CA (Venice Beach)" : ["Los Angeles, CA (Venice Beach)"]
     },
     "Font File Types": [
       "otf",
