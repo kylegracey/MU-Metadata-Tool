@@ -33,6 +33,14 @@
         }
       },
       {
+        "Label": "Brisk",
+        "Dependencies": {
+          "group": [
+            "PepsiCo"
+          ]
+        }
+      },
+      {
         "Label": "Gatorade",
         "Dependencies": {
           "group": [
@@ -349,6 +357,22 @@
     "Metaproperty": "product",
     "Label": "Product",
     "Options": [
+      {
+        "Label": "Iced Tea",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Energizing Iced Tea",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
       {
         "Label": "Coolers",
         "Dependencies": {
@@ -1070,6 +1094,70 @@
     "Metaproperty": "campaign",
     "Label": "Campaign",
     "Options": [
+      {
+        "Label": "Props to Carlos",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Respect The Hustle",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Rocket League",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Watermelon Lemonade",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "OpTic Gaming",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Night Light",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Circle K - Strawberry Melon",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "4 Valve",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
       {
         "Label": "Flow",
         "Dependencies": {
