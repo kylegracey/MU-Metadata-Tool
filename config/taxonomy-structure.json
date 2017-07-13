@@ -248,6 +248,38 @@
     "Label": "Product Group",
     "Options": [
       {
+        "Label": "Iced Tea",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Energizing Iced Tea",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Juice Drink",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "LTO",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
         "Label": "GTQ",
         "Dependencies": {
           "clientteam": [
@@ -358,7 +390,7 @@
     "Label": "Product",
     "Options": [
       {
-        "Label": "Iced Tea",
+        "Label": "Watermelon Lemonade",
         "Dependencies": {
           "clientteam": [
             "Brisk"
@@ -366,7 +398,135 @@
         }
       },
       {
-        "Label": "Energizing Iced Tea",
+        "Label": "Lemon Iced Tea",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Strawberry Melon",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Fruit Punch",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Sweet Tea",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Pink Lemonade",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Lemonade",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Blueberry Lemonade",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Tropical Lemonade",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Half & Half",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Peach Iced Tea",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Pineapple Passionfruit",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Raspberry Iced Tea",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Iced Tea & Cherry Limeade",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Mango Iced Tea",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Cherry",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Dragon Fruit",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Mango",
         "Dependencies": {
           "clientteam": [
             "Brisk"
@@ -692,6 +852,28 @@
     "Label": "Product Size",
     "Options": [
       {
+        "Label": "Bottle",
+        "Dependencies": {
+          "productgroup": [
+            "Iced Tea",
+            "Juice Drink",
+            "Energizing Iced Tea"
+            "LTO"
+          ]
+        }
+      },
+      {
+        "Label": "Can",
+        "Dependencies": {
+          "productgroup": [
+            "Iced Tea",
+            "Juice Drink",
+            "Energizing Iced Tea"
+            "LTO"
+          ]
+        }
+      },
+      {
         "Label": "12oz",
         "Dependencies": {
           "productgroup": [
@@ -942,6 +1124,27 @@
     "Label": "Person",
     "Options": [
       {
+        "Label": "RJ Puno"
+      },
+      {
+        "Label": "Kris Fox"
+      },
+      {
+        "Label": "TJ Daniels"
+      },
+      {
+        "Label": "Rob Garcia"
+      },
+      {
+        "Label": "Hector Rodriguez"
+      },
+      {
+        "Label": "Mosquito"
+      },
+      {
+        "Label": "Pale Horse"
+      },
+      {
         "Label": "Bryce Harper"
       },
       {
@@ -1095,7 +1298,7 @@
     "Label": "Campaign",
     "Options": [
       {
-        "Label": "Props to Carlos",
+        "Label": "Night Light",
         "Dependencies": {
           "clientteam": [
             "Brisk"
@@ -1111,15 +1314,7 @@
         }
       },
       {
-        "Label": "Rocket League",
-        "Dependencies": {
-          "clientteam": [
-            "Brisk"
-          ]
-        }
-      },
-      {
-        "Label": "Watermelon Lemonade",
+        "Label": "Props to Carlos",
         "Dependencies": {
           "clientteam": [
             "Brisk"
@@ -1135,7 +1330,7 @@
         }
       },
       {
-        "Label": "Night Light",
+        "Label": "Rocket League",
         "Dependencies": {
           "clientteam": [
             "Brisk"
@@ -1152,6 +1347,14 @@
       },
       {
         "Label": "4 Valve",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Watermelon Lemonade",
         "Dependencies": {
           "clientteam": [
             "Brisk"
