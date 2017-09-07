@@ -17,8 +17,8 @@ const evalTags = require('./modules/eval-tags')
 // Input and Output Options
 // const inputPath = process.argv[2]
 // const outputPath = process.argv[3]
-const inputPath = './config/debug.json'
-const outputPath = './files/debugoutput.csv'
+const inputPath = './files/brisknewmd.json'
+const outputPath = './files/briskoutput.csv'
 const jsonData = require("./" + inputPath)
 
 // Brand Settings

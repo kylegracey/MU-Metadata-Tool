@@ -518,7 +518,7 @@
         }
       },
       {
-        "Label": "Dragon Fruit",
+        "Label": "Dragonfruit",
         "Dependencies": {
           "clientteam": [
             "Brisk"

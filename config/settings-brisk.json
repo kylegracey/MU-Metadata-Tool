@@ -1,0 +1,206 @@
+[
+  {
+    "BrandSubBrand": "VML",
+    "Group": "PepsiCo",
+    "Client Team": "Brisk",
+    "Product Groups": {},
+    "KeywordCats": {
+      "Asset Type": [
+        "Photography",
+        "Video",
+        "Graphics",
+        "Fonts",
+        "Presentations",
+        "Documents",
+        "Production Files",
+        "Product Renders"
+      ],
+      "Asset Subtype": [
+        "Original",
+        "Stock",
+        "Logos",
+        "Layouts",
+        "Icons",
+        "Releases",
+        "Backgrounds and Textures",
+        "Partner",
+        "Animations",
+        "Case Studies"
+      ],
+      "Person": [
+        "RJ Puno",
+        "Kris Fox",
+        "TJ Daniels",
+        "Rob Garcia",
+        "Hector Rodriguez",
+        "Mosquito",
+        "Pale Horse"
+      ],
+      "Campaign": [
+        "Night Light",
+        "Respect The Hustle",
+        "Props to Carlos",
+        "Social",
+        "OpTic Gaming",
+        "Rocket League",
+        "Circle K - Strawberry Melon",
+        "4 Valve",
+        "Watermelon Lemonade"
+      ],
+      "Gender": [
+        "Female",
+        "Male"
+      ],
+      "Market": [
+        "North America",
+        "International",
+        "USA",
+        "EMEA",
+        "Australia",
+        "France",
+        "Germany",
+        "Asia",
+        "Europe",
+        "Latin America",
+        "Oceania",
+        "Africa",
+        "Middle East"
+      ],
+      "Number of People": [
+        "Group of People (3+)",
+        "None",
+        "One",
+        "Two"
+      ],
+      "Platform Rights": [
+        "Digital",
+        "Social",
+        "Broadcast",
+        "Unlimited",
+        "Print",
+        "Internal"
+      ],
+      "Product": [
+        "Iced Tea",
+        "Juice Drink",
+        "Energizing Iced Tea",
+        "LTO"
+      ],
+      "Product Subtype": [
+        "Watermelon Lemonade",
+        "Lemon Iced Tea",
+        "Strawberry Melon",
+        "Fruit Punch",
+        "Sweet Tea",
+        "Pink Lemonade",
+        "Lemonade",
+        "Blueberry Lemonade",
+        "Tropical Lemonade",
+        "Half & Half",
+        "Peach Iced Tea",
+        "Pineapple Passionfruit",
+        "Raspberry Iced Tea",
+        "Iced Tea & Cherry Limeade",
+        "Mango Iced Tea",
+        "Cherry",
+        "Dragonfruit",
+        "Mango"
+      ],
+      "Shot Type": [
+        "3/4 View",
+        "Action",
+        "Active",
+        "Architecture",
+        "Back",
+        "Bottom",
+        "Consumption",
+        "Family",
+        "Front",
+        "Group",
+        "Head to Toe",
+        "Individual Product",
+        "Lifestyle",
+        "Medium Shot",
+        "Outlines",
+        "Pack Shot",
+        "Portrait",
+        "Product",
+        "Product Close Up",
+        "Side",
+        "Studio",
+        "Sweep",
+        "Top",
+        "Wide Shot"
+      ],
+      "Genres": [
+        "Breakdancing",
+        "Fashion",
+        "Studio Art",
+        "Street Art",
+        "Streetball",
+        "Gaming",
+        "BMX",
+        "Skateboarding"
+      ]
+    },
+    "Keyword Remaps": {
+      "Dragonfruit": [
+        "Dragon Fruit"
+      ],
+      "Person": [
+        "Athlete"
+      ],
+      "Team Marks": [
+        "Marks"
+      ],
+      "Blender Bottle": [
+        "Shaker Bottle",
+        "Rec Bottle"
+      ],
+      "Backgrounds and Textures": [
+        "Backgrounds",
+        "Details"
+      ],
+      "Expired": [
+        "Asset Expired"
+      ],
+      "Energy Chews": [
+        "Prime Chews"
+      ],
+      "Gx Bottle": [
+        "Gx"
+      ],
+      "Joe Athlete": [
+        "Joe"
+      ],
+      "Product Close Up": [
+        "Product Hero"
+      ],
+      "Sports Fuel Drink": [
+        "Prime Pouch"
+      ],
+      "Whey Protein Bar": [
+        "Recover Bar"
+      ],
+      "Barrington IL (GSSI)": [
+        "Barrington, IL (GSSI)"
+      ],
+      "Bradenton FL (GSSI)": [
+        "Bradenton, FL (GSSI)"
+      ],
+      "Bradenton FL (IMG Academy)": [
+        "Bradenton, FL (IMG Academy)"
+      ],
+      "Chicago IL": [
+        "Chicago, IL"
+      ],
+      "Los Angeles CA (Venice Beach)": [
+        "Los Angeles, CA (Venice Beach)"
+      ]
+    },
+    "Font File Types": [
+      "otf",
+      "ttf"
+    ]
+  }
+]
