@@ -1,4 +1,4 @@
-var settings = require('../config/settings-gatorade.json');
+var settings = require('../config/settings-brisk.json');
 
 // Gets a specific setting by it's name
 module.exports = function getSetting(key){

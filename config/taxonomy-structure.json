@@ -358,7 +358,6 @@
     "Label": "Product",
     "Options": [
       {
-<<<<<<< HEAD
         "Label": "Watermelon Lemonade",
         "Dependencies": {
           "clientteam": [
@@ -488,9 +487,6 @@
       },
       {
         "Label": "Dragonfruit",
-=======
-        "Label": "Iced Tea",
->>>>>>> parent of dd7513a... Brisk Starter Template v1 Added
         "Dependencies": {
           "clientteam": [
             "Brisk"
