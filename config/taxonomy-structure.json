@@ -248,38 +248,6 @@
     "Label": "Product Group",
     "Options": [
       {
-        "Label": "Iced Tea",
-        "Dependencies": {
-          "clientteam": [
-            "Brisk"
-          ]
-        }
-      },
-      {
-        "Label": "Energizing Iced Tea",
-        "Dependencies": {
-          "clientteam": [
-            "Brisk"
-          ]
-        }
-      },
-      {
-        "Label": "Juice Drink",
-        "Dependencies": {
-          "clientteam": [
-            "Brisk"
-          ]
-        }
-      },
-      {
-        "Label": "LTO",
-        "Dependencies": {
-          "clientteam": [
-            "Brisk"
-          ]
-        }
-      },
-      {
         "Label": "GTQ",
         "Dependencies": {
           "clientteam": [
@@ -390,6 +358,7 @@
     "Label": "Product",
     "Options": [
       {
+<<<<<<< HEAD
         "Label": "Watermelon Lemonade",
         "Dependencies": {
           "clientteam": [
@@ -519,6 +488,9 @@
       },
       {
         "Label": "Dragonfruit",
+=======
+        "Label": "Iced Tea",
+>>>>>>> parent of dd7513a... Brisk Starter Template v1 Added
         "Dependencies": {
           "clientteam": [
             "Brisk"
@@ -526,7 +498,7 @@
         }
       },
       {
-        "Label": "Mango",
+        "Label": "Energizing Iced Tea",
         "Dependencies": {
           "clientteam": [
             "Brisk"
@@ -852,28 +824,6 @@
     "Label": "Product Size",
     "Options": [
       {
-        "Label": "Bottle",
-        "Dependencies": {
-          "productgroup": [
-            "Iced Tea",
-            "Juice Drink",
-            "Energizing Iced Tea"
-            "LTO"
-          ]
-        }
-      },
-      {
-        "Label": "Can",
-        "Dependencies": {
-          "productgroup": [
-            "Iced Tea",
-            "Juice Drink",
-            "Energizing Iced Tea"
-            "LTO"
-          ]
-        }
-      },
-      {
         "Label": "12oz",
         "Dependencies": {
           "productgroup": [
@@ -1124,27 +1074,6 @@
     "Label": "Person",
     "Options": [
       {
-        "Label": "RJ Puno"
-      },
-      {
-        "Label": "Kris Fox"
-      },
-      {
-        "Label": "TJ Daniels"
-      },
-      {
-        "Label": "Rob Garcia"
-      },
-      {
-        "Label": "Hector Rodriguez"
-      },
-      {
-        "Label": "Mosquito"
-      },
-      {
-        "Label": "Pale Horse"
-      },
-      {
         "Label": "Bryce Harper"
       },
       {
@@ -1298,7 +1227,7 @@
     "Label": "Campaign",
     "Options": [
       {
-        "Label": "Night Light",
+        "Label": "Props to Carlos",
         "Dependencies": {
           "clientteam": [
             "Brisk"
@@ -1314,7 +1243,15 @@
         }
       },
       {
-        "Label": "Props to Carlos",
+        "Label": "Rocket League",
+        "Dependencies": {
+          "clientteam": [
+            "Brisk"
+          ]
+        }
+      },
+      {
+        "Label": "Watermelon Lemonade",
         "Dependencies": {
           "clientteam": [
             "Brisk"
@@ -1330,7 +1267,7 @@
         }
       },
       {
-        "Label": "Rocket League",
+        "Label": "Night Light",
         "Dependencies": {
           "clientteam": [
             "Brisk"
@@ -1347,14 +1284,6 @@
       },
       {
         "Label": "4 Valve",
-        "Dependencies": {
-          "clientteam": [
-            "Brisk"
-          ]
-        }
-      },
-      {
-        "Label": "Watermelon Lemonade",
         "Dependencies": {
           "clientteam": [
             "Brisk"
