@@ -96,7 +96,7 @@
         "Lemonade",
         "Blueberry Lemonade",
         "Tropical Lemonade",
-        "Half & Half",
+        "Half and Half",
         "Peach Iced Tea",
         "Pineapple Passionfruit",
         "Raspberry Iced Tea",
@@ -146,6 +146,9 @@
     "Keyword Remaps": {
       "Dragonfruit": [
         "Dragon Fruit"
+      ],
+      "Half and Half": [
+        "Half & Half"
       ],
       "Person": [
         "Athlete"

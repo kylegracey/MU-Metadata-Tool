@@ -17,8 +17,8 @@ const evalTags = require('./modules/eval-tags')
 // Input and Output Options
 // const inputPath = process.argv[2]
 // const outputPath = process.argv[3]
-const inputPath = './files/brisknewmd.json'
-const outputPath = './files/briskoutput.csv'
+const inputPath = './files/briskxmp.json'
+const outputPath = './files/briskxmpoutput.csv'
 const jsonData = require("./" + inputPath)
 
 // Brand Settings
@@ -57,9 +57,9 @@ const parseMD = function(data) {
       "Asset Type" : [],
       "Asset Sub-Type" : [],
       "Year" : [],
-      "Photographer" : [],
+      // "Photographer" : [],
       "Campaign" : [],
-      "Genres" : [],
+      // "Genres" : [],
       "Product Group" : [],
       "Product" : [],
       "Product Size" : [],
